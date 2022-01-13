@@ -4,4 +4,6 @@ const withTM = require('next-transpile-modules')([
   'three',
   // 'postprocessing',
 ])
-module.exports = withTM()
+module.exports = withTM({
+  reactStrictMode: true
+})
