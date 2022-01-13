@@ -48,7 +48,7 @@ function Coin({ z }) {
   );
 }
 
-export default function Home({ count = 80, depth = 80 }) {
+export default function Home({ count = 50, depth = 80 }) {
   return (
     <>
       <Canvas gl={{ alpha: false }} camera={{ near: 0.01, far: 100, fov: 15 }}>
